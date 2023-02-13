@@ -1,3 +1,5 @@
+// Assignment 2, Question 1: Avery Haskell
+
 function setup() {
   createCanvas(400, 400);
 }
@@ -5,8 +7,12 @@ function setup() {
 function draw() {
   background(220);
   
+// Fill + Stroke for Background Squares
+  
   fill(300,150,200)
   stroke(255)
+  
+// Custom Function Called x5
   
   initial(0)
   initial(80)
@@ -14,6 +20,8 @@ function draw() {
   initial(240)
   initial(320)
   
+// Fill for Initial Squares (Purple)
+
   fill(150,0,150)
   square(80,0, 80)
   square(160,0,80)
@@ -29,9 +37,10 @@ function draw() {
   square(320, 240, 80)
   square(0,320,80)
   square(320, 320, 80)
-
   
 }
+
+// Custom Function
 
 function initial(y) {
 
